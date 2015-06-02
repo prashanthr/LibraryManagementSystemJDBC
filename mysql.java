@@ -15,9 +15,9 @@ import java.lang.*;
 import java.io.*;
 
 final class SQL {
-    final static String user = "pxr2737";
-    final static String password = "mysql_pxr2737";
-    final static String db = "pxr2737";
+    final static String user = "mysql_username";
+    final static String password = "mysql_password";
+    final static String db = "mysql_db";
     final static String jdbc = "jdbc:mysql://localhost:3306/"+db+"?user="+user+"&password="+password;
 	static int choice = 0;
 	static int miniChoice = 0;
